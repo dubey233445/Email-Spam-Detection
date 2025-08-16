@@ -41,11 +41,11 @@ message → email text
 
 Clone the repository
 
-git clone https://github.com/your-username/email-spam-detection.git
+git clone https://github.com/dubey233445/Email-Spam-Detection
 cd email-spam-detection
 
 
-Install dependencies
+# Install dependencies
 
 pip install -r requirements.txt
 
@@ -55,7 +55,27 @@ Run model training
 python src/train_model.py
 
 
-Test on a new email
+# Test on a new email
 
 python src/predict.py "Congratulations! You've won a free prize..."
+
+
+# 🌐 Deployment
+
+Can be deployed as a Flask/Streamlit web app.
+
+Example: Enter an email → click Check Spam → model predicts spam/ham.
+
+# 📌 Future Improvements
+
+Integrate deep learning (LSTM, BERT, Transformers) for advanced text understanding.
+
+Add real-time email integration with Gmail/Outlook API.
+
+Deploy as a REST API for production use.
+
+ # 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+Fork this repo and submit a pull request to improve the project.
 
